@@ -252,10 +252,10 @@ components are being processed.
                 dataᵢⱼ[iψ₄] = k⁻³ * (ψ₄)
             end
             if !isnothing(iσ)
-                dataᵢⱼ[iσ] = k⁻¹ * (σ + ð²α)
+                dataᵢⱼ[iσ] = k⁻¹ * (σ - ð²α)
             end
             if !isnothing(ih)
-                dataᵢⱼ[ih] = k⁻¹ * (h + ð̄²α)
+                dataᵢⱼ[ih] = k⁻¹ * (h - ð̄²α)
             end
             if !isnothing(iNews)
                 dataᵢⱼ[iNews] = k⁻² * News
